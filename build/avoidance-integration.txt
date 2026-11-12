@@ -1,0 +1,4 @@
+Input monitor samples=75776, music baseline=0.0062438315
+Ducked ratio=0.20004123, slider=0.5, engaged=true
+Restored ratio=0.9996195, hardware unchanged=true, global monitor callbacks=true
+PASS real activity detection, duck/restore, excluded music, unchanged hardware

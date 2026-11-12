@@ -1,0 +1,10 @@
+A baseline=0.0019937032, half ratio=0.2503071, mute=0.0, restored=1.0001184, re-enabled=0.25003487
+B unchanged ratio=1.0014418, while A muted=1.0012552
+Slider 100%: ratio=4.006405, expected=4.0, B=0.9994929, PASS=true
+Slider 50%: ratio=1.0007806, expected=1.0, B=1.0016873, PASS=true
+Slider 10%: ratio=0.040061504, expected=0.040000003, B=1.0005392, PASS=true
+Slider 5%: ratio=0.0100131715, expected=0.010000001, B=1.001358, PASS=true
+Slider 1%: ratio=0.0004005, expected=0.0004, B=1.0011678, PASS=true
+Slider 0%: ratio=0.0, expected=0.0, B=1.0007552, PASS=true
+Boost + AU final fader: 1% ratio=0.00010009873, 0%=0.0, mute=0.0, PASS=true
+PASS UI control handlers: idle activation, independent gain/mute, restore, re-enable

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>声控台</string>
+	<key>CFBundleExecutable</key>
+	<string>ToneDesk</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.tonedesk.app</string>
+	<key>CFBundleName</key>
+	<string>声控台</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.6.2</string>
+	<key>CFBundleVersion</key>
+	<string>15</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.2</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>启用自动暂停时，声控台需要向你选择的音乐播放器发送暂停和恢复播放指令。</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>声控台需要获取应用播放的音频，以在本机调整音量、应用音效并发送到所选输出设备。音频不会保存或上传。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>部分音频设备使用双向音频接口，需要音频输入访问以建立设备路由。声控台不会保存或上传麦克风声音。</string>
+</dict>
+</plist>

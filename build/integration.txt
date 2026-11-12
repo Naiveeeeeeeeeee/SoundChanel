@@ -1,0 +1,9 @@
+Test source found. Creating tap; macOS may ask permission.
+baseline=0.003992642, frames=49152
+half=0.0019962552, ratio=0.49998355
+mute=0.0
+EQ +6dB at 1kHz ratio=1.9935178
+Apple AULowpass load=0
+AU chain first=0.5648018, two=0.31911066, bypass=1.000284, PASS=true
+Global tap peak=0.0039871605, relative=0.9986271, health=0
+PASS real tap, gain, mute, EQ, Audio Unit. Releasing capture.
